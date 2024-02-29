@@ -4,97 +4,92 @@ Submission template for the CG lab project at the Johannes Kepler University Lin
 
 ### Explanation
 
-This `README.md` needs to be pushed to Github for each of the 3 delivery dates.
-For every submission change/extend the corresponding sections by replacing the *TODO* markers. Make sure that you push everything to your Github repository before the respective deadlines. For more details, see the Moodle page.
+This `README.md` needs to be pushed to Github for each of the four assignments. For every submission change/extend the corresponding sections by replacing the *TODO* markers. Make sure that you push everything to your Github repository before the respective deadlines. For more details, see the Moodle page.
 
-## Concept submission due on 31.03.2023
+### Student information due on 25.03.2024
 
-### Group Members
+|                  | Student ID | First Name | Last Name | E-Mail |
+| ---------------- | ---------- | ---------- | --------- | ------ |
+| **Student name** | TODO       | TODO       | TODO      | TODO   |
 
-|               | Student ID    | First Name  | Last Name      | E-Mail         |
-|---------------|---------------|-------------|----------------|----------------|
-| **Student 1** | TODO          | TODO        | TODO           | TODO           |
-| **Student 2** | TODO          | TODO        | TODO           | TODO           |
-
-### Concept Submission due on 31.03.2023
+### Concept Submission due on 25.03.2024
 
 TODO
 
 (Explain the basic story of your movie, i.e., planned scenes, what happens, which objects are used, etc.)
 
-### Special Effects
+## Assignment 1 - Scene Graphs (Submission due on 15.04.2024)
 
-Selected special effects must add up to exactly 30 points. Replace yes/no with either yes or no.
+Prepare a submission that contains:
 
-| Selected   | ID | Name                                  | Points |
-|------------|----|---------------------------------------|--------|
-| yes/no     | S1 | Multi texturing                       | 15     |  
-| yes/no     | S2 | Level of detail                       | 15     |
-| yes/no     | S3 | Billboarding                          | 15     |
-| yes/no     | S4 | Terrain from heightmap                | 30     |
-| yes/no     | S5 | Postprocessing shader                 | 30     |
-| yes/no     | S6 | Animated water surface                | 30     |
-| yes/no     | S7 | Minimap                               | 30     |
-| yes/no     | S8 | Particle system (rain, smoke, fire)   | 30     |
-| yes/no     | S9 | Motion blur                           | 30     |
-| yes/no     | SO | Own suggestion (preapproved by email) | TODO   |
+* A1.1: Manually composed object 
+* A1.2: Animate composed object 
 
-## Intermediate Submission due on 29.04.2023
-
-Prepare a first version of your movie that:
- * is 30 seconds long,
- * contains animated objects, and
- * has an animated camera movement. 
-
-Push your code on the day of the submission deadline. 
+Push your code on the day of the submission deadline.
 The repository needs to contain:
-  * code/ Intermediate code + resources + libs
-  * video/ A screen recording of the intermediate result
 
-Nothing to change here in `README` file.
+* code/ documented code + resources + libs
+* video/screen recording 
 
-**Note:** You don’t need to use any lighting, materials, or textures yet. This will be discussed in later labs and can be added to the project afterwards!
+## !! Assignment 2 - Shading & Materials (Submission due on 02.05.2024)
 
-## Final Submission due on 20.06.2023
+Prepare a submission that contains:
+
+A 2.1: Materials 
+A 2.2: Multiple light sources 
+A 2.3: Phong shading
+A 2.4: Spotlight 
+
+Push your code on the day of the submission deadline.
+The repository needs to contain:
+
+* code/ documented code + resources + libs
+* video/screen recording 
+
+## Assignment 3 - Animation (Submission due on 22.05.2024)
+
+Prepare a submission that contains:
+
+A 3.1: Animate the camera for exactly 20 seconds
+A 3.2: Animated Light
+
+Push your code on the day of the submission deadline.
+The repository needs to contain:
+
+* code/ documented code + resources + libs
+* video/screen recording 
+
+## Assignment 4 - Texturing (Submission due on 10.06.2024)
+
+Prepare a submission that contains:
+
+A 4.1: Texture composed object 
+A 4.2: Shadow mapping OR cube mapping 
+
+Push your code on the day of the submission deadline.
 
 The repository needs to contain:
-  * code/ Documented code + resources + libs
-  * video/ A screen recording of the movie
-  * README.md
+
+* code/ documented code + resources + libs
+* video/screen recording 
+
+### Assignments
+
+You will implement the assignments in the table below. Replace yes/no/partial with one of the options each time you made a submission.
+Mention in the comments column of the table where you have implemented the code and where it is visible (e.g., spotlight is the lamp post shining on the street).
 
 
-### Workload
+| Implemented    | ID  | Name                                                                                    | Max. Points | Issues/Comments* |
+| -------------- | --- | --------------------------------------------------------------------------------------- | ----------- | ---------------- |
+| yes/no/partial | 1.1 | Scene Graphs - Manually composed object.                                                | 10          |                  |
+| yes/no/partial | 1.2 | Scene Graphs - Animate parts of composed object and move it.                            | 7           |                  |
+| yes/no/partial | 2.1 | Materials - Add at least 2 different materials to various parts of the composed object. | 6           |                  |
+| yes/no/partial | 2.2 | Lights - Use multiple light sources. Make sure all objects are affected by them. 		 | 7           |                  |
+| yes/no/partial | 2.3 | Shading & Materials - Apply Phong shading to all objects.                               | 7           |                  |
+| yes/no/partial | 2.4 | Lights - Implement one spotlight.                                                       | 13          |                  |
+| yes/no/partial | 3.1 | Animation - Animate camera for exactly 20 seconds.                                      | 14          |                  |
+| yes/no/partial | 3.2 | Animation - Animated light - one light source should be moving in the scene.            | 8           |                  |
+| yes/no/partial | 4.1 | Texturing - Texture parts of composed object / set tex coords.                          | 8           |                  |
+| yes/no/partial | 4.2 | Advanced Texturing - Shadow Mapping or Cube Mapping.                                    | 20          |                  |
 
-| Student ID     | Workload (in %) |
-| ---------------|-----------------|
-| TODO           | TODO            |
-| TODO           | TODO            |
-
-Workload has to sum up to 100%.
-
-### Effects
-
-Select which effects you have implemented in the table below. Replace yes/no/partial with one of the options.
-Mention in the comments column of the table where you have implemented the code and where it is visible (e.g., spotlight is the lamp post shining on the street). 
-
-| Implemented    | ID | Name                                                                                                   | Max. Points | Issues/Comments |
-|----------------|----|--------------------------------------------------------------------------------------------------------|-------------|-----------------|
-| yes/no/partial | 1a | Add at least one manually composed object that consists of multiple scene graph nodes.                 | 6           |                 |
-| yes/no/partial | 1b | Animate separate parts of the composed object and also move the composed object itself in the scene.   | 4           |                 |
-| yes/no/partial | 1c | Use at least two clearly different materials for the composed object.                                  | 3           |                 |
-| yes/no/partial | 1d | Texture parts of your composed object by setting proper texture coordinates.                           | 5           |                 |
-| yes/no/partial | 2a | Use multiple light sources.                                                                            | 5           |                 |
-| yes/no/partial | 2b | One light source should be moving in the scene.                                                        | 3           |                 |
-| yes/no/partial | 2c | Implement at least one spot-light.                                                                     | 10          |                 |
-| yes/no/partial | 2d | Apply Phong shading to all objects in the scene.                                                       | 4           |                 |
-| yes/no/partial | 3  | The camera is animated 30 seconds without user intervention. Animation quality and complexity of the camera and the objects influence the judgement.                                                                       | 10           |                 |
-| yes/no/partial | Sx | TODO Special Effect Name                                                                               | TODO        |                 |
-| yes/no/partial | Sy | TODO Special Effect Name                                                                               | TODO        |                 |
-| yes/no/partial | SE | Special effects are nicely integrated and well documented                                              | 20          |                 |
-
-### Special Effect Description
-
-TODO
-
-Describe how the effects work in principle and how you implemented them. If your effect does not work but you tried to implement it, make sure that you explain this. Even if your code is broken do not delete it (e.g., keep it as a comment). If you describe the effect (how it works, and how to implement it in theory), then you will also get some points. If you remove the code and do not explain it in the README this will lead to 0 points for the effect and the integration SE.
-
+* Mention in the comments column of the table where you have implemented the code for all minimal aspects/requirements and where it is visible (e.g., spotlight is the lamp post shining on the street).
