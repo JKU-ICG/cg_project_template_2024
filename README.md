@@ -35,10 +35,10 @@ The repository needs to contain:
 
 Prepare a submission that contains:
 
-A 2.1: Materials 
-A 2.2: Multiple light sources 
-A 2.3: Phong shading
-A 2.4: Spotlight 
+* A 2.1: Materials 
+* A 2.2: Multiple light sources 
+* A 2.3: Phong shading
+* A 2.4: Spotlight 
 
 Push your code on the day of the submission deadline.
 The repository needs to contain:
@@ -50,8 +50,8 @@ The repository needs to contain:
 
 Prepare a submission that contains:
 
-A 3.1: Animate the camera for exactly 20 seconds
-A 3.2: Animated Light
+* A 3.1: Animate the camera for exactly 20 seconds
+* A 3.2: Animated Light
 
 Push your code on the day of the submission deadline.
 The repository needs to contain:
@@ -63,8 +63,8 @@ The repository needs to contain:
 
 Prepare a submission that contains:
 
-A 4.1: Texture composed object 
-A 4.2: Shadow mapping OR cube mapping 
+* A 4.1: Texture composed object 
+* A 4.2: Shadow mapping OR cube mapping 
 
 Push your code on the day of the submission deadline.
 
