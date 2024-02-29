@@ -31,7 +31,7 @@ The repository needs to contain:
 * code/ documented code + resources + libs
 * video/screen recording 
 
-## !! Assignment 2 - Shading & Materials (Submission due on 02.05.2024)
+## Assignment 2 - Shading & Materials (Submission due on 02.05.2024)
 
 Prepare a submission that contains:
 
